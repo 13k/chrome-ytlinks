@@ -1,0 +1,22 @@
+{
+  "name": "YTLinks",
+  "version": "1.0",
+  "description": "Shows regular YouTube links from selected embedded videos",
+
+  "background_page": "background.html",
+
+  "icons": {
+    "128": "ytl_128.png",
+    "48": "ytl_48.png",
+    "16": "ytl_16.png"
+  },
+
+  "minimum_chrome_version": "6",
+
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ]
+}
